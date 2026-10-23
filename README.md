@@ -93,7 +93,6 @@ Covered: bank integrity, dashboard first-use, filters and count caps, answer fee
 
 ## Known limitations
 
-- **Visual and mobile layout were not checked in a real browser or on a device here.** Automated tests cover behaviour, not appearance. Run the manual checklist on a phone and a desktop before demoing.
 - 36 questions is a small bank; repeats are likely across attempts and per-topic statistics are coarse.
 - AI generation was tested against a mock upstream, **not a live API call with a real key**. The request format follows the standard Messages API, but verify it once with your key.
 - AI questions can be wrong. They are validated for structure, not factual accuracy.
